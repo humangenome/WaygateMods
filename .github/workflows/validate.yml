@@ -1,0 +1,26 @@
+name: Validate registry
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Entries are well formed and every release asset hashes as listed
+        run: python3 tools/validate.py registry.json
+      - name: index.json is the signed form of registry.json
+        run: |
+          set -euo pipefail
+          test -f index.json
+          python3 - <<'PY'
+          import base64, json
+          env = json.load(open("index.json"))
+          payload = base64.b64decode(env["payload_b64"])
+          assert payload == open("registry.json", "rb").read(), "index.json was signed over a different registry.json: run tools/sign-index.sh"
+          assert env.get("signature_alg") == "ed25519" and len(env.get("signature", "")) == 128
+          print("index.json carries the current registry.json")
+          PY

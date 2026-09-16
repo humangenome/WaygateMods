@@ -1,0 +1,12 @@
+{
+  "id": "YourName-ClientMod",
+  "name": "Client Mod",
+  "version": "1.0.0",
+  "author": "YourName",
+  "side": "client",
+  "dll": "ClientMod.dll",
+  "sha256": "",
+  "game_build": 25335390,
+  "description": "One sentence: what it does. Client side, installed by the Waygate app when a server lists it.",
+  "dependencies": []
+}

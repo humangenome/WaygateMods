@@ -1,0 +1,12 @@
+{
+  "id": "YourName-ServerMod",
+  "name": "Server Mod",
+  "version": "1.0.0",
+  "author": "YourName",
+  "side": "server",
+  "dll": "ServerMod.dll",
+  "sha256": "",
+  "game_build": 25335390,
+  "description": "One sentence: what it does. Server side, players install nothing.",
+  "dependencies": []
+}

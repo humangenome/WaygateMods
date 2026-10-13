@@ -17,15 +17,21 @@ Server-only mods are installed by whoever runs the server: the folder `BepInEx\p
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## First entries
+## Listed mods
 
-| Mod | Side | Author |
+| Mod | Side | What it does |
 |---|---|---|
-| Server Multipliers | server | HumanGenome |
-| Message of the Day | server | HumanGenome |
-| Client HUD | client | HumanGenome |
+| Server Multipliers | server | XP, gold, loot chance, monster respawn time and day length multipliers |
+| Message of the Day | server | A welcome line in chat on join, and a repeating announcement |
+| Client HUD | client | Server name and player count in the corner of the screen |
+| Chronicle | server | Kills, deaths, bounties and time played per character, `/stats` and `/top` in chat |
+| Dark Nights | server | Harder nights, and a blood moon every Nth night |
+| Waygate Travel | server | `/summon`, `/tpa`, `/home`, `/back` and `/where` for co-op groups |
+| Bounty Board Plus | server | Bounty boards on a clock, shorter cooldowns, a higher tier ceiling, `/bounties` in chat |
+| Corrupted Realm | server | More empowered monsters, stronger and better paid, optional champions |
+| Horde Nights | server | Waves of monsters come for the players every Nth night or on `/horde start` |
 
-Source for all three: [WaygateMods-first](https://github.com/HumanGenome/WaygateMods-first).
+All nine are by HumanGenome, MIT, with source in [WaygateMods-first](https://github.com/HumanGenome/WaygateMods-first).
 
 ## License
 

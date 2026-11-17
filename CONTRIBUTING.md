@@ -4,7 +4,7 @@ The registry is one file, `registry.json`. Every entry is a mod the Waygate app 
 
 ## What a listed mod is
 
-- A BepInEx 6 IL2CPP plugin for Dimraeth, built against the interop assemblies that ship in the WaygateServer package. Start from [templates/server-mod](templates/server-mod) or [templates/client-mod](templates/client-mod).
+- A BepInEx 6 IL2CPP plugin for Dimraeth, built against the interop assemblies that ship in the WaygateServer download. Start from [templates/server-mod](templates/server-mod) or [templates/client-mod](templates/client-mod).
 - Published as a GitHub release on the author's own repository. The release carries one zip named `<id>-<version>.zip` with, at its root: `waygate-mod.json`, the plugin dll, `README.md` and `LICENSE`. Nothing else, no folders.
 - Open source under an OSI license, with the source repository named in the entry.
 - Tested on the game build named in the entry.

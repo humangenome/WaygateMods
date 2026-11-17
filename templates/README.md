@@ -1,6 +1,6 @@
 # Mod templates
 
-Two starting points, one per side. Copy a folder, rename the project and the ids, and build against the interop assemblies of an unpacked WaygateServer package (set `WAYGATE_PACK` to its `BepInEx` folder; those assemblies are generated from the game and are never committed to a mod repository).
+Two starting points, one per side. Copy a folder, rename the project and the ids, and build against the interop assemblies of an unzipped WaygateServer download. Set `WAYGATE_PACK` to its `BepInEx` folder. Those assemblies are generated from the game and never go in a mod repository.
 
 - `server-mod/`: runs on the server only. Players install nothing. Use it for rules the server computes: multipliers, chat notices, save schedules, world state.
 - `client-mod/`: runs on the player's PC only, installed by the Waygate app when a server lists it. Use it for HUD, camera, keybinds and visuals. It must read replicated state and never write signed player state or change the network contract.

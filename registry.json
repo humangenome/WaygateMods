@@ -36,7 +36,7 @@
       "url": "https://github.com/HumanGenome/WaygateMods-first/releases/download/HumanGenome-MotdAnnounce-v1.0.0/HumanGenome-MotdAnnounce-1.0.0.zip",
       "source": "https://github.com/HumanGenome/WaygateMods-first/tree/main/MotdAnnounce",
       "license": "MIT",
-      "description": "A welcome line in chat when a player joins, and a repeating announcement. Server side, players install nothing.",
+      "description": "A welcome line in chat when a player joins, and a repeating announcement. Players install nothing.",
       "dependencies": [],
       "revoked": false
     },
@@ -54,7 +54,7 @@
       "url": "https://github.com/HumanGenome/WaygateMods-first/releases/download/HumanGenome-ClientHud-v1.0.0/HumanGenome-ClientHud-1.0.0.zip",
       "source": "https://github.com/HumanGenome/WaygateMods-first/tree/main/ClientHud",
       "license": "MIT",
-      "description": "Shows the server's name and player count in the corner of the screen while you are connected. Installed on your PC by the Waygate app.",
+      "description": "Shows the server's name and player count in the corner of the screen while you're connected. The Waygate app installs it on your PC.",
       "dependencies": [],
       "revoked": false
     },
@@ -72,7 +72,7 @@
       "url": "https://github.com/HumanGenome/WaygateMods-first/releases/download/HumanGenome-Chronicle-v1.0.0/HumanGenome-Chronicle-1.0.0.zip",
       "source": "https://github.com/HumanGenome/WaygateMods-first/tree/main/Chronicle",
       "license": "MIT",
-      "description": "Server stats and leaderboards: kills, elite and boss kills, deaths, bounties and time played per character, /stats and /top in chat, a digest at dawn. Players install nothing.",
+      "description": "Server stats and leaderboards: kills, elite and boss kills, deaths, bounties and time played for each character, /stats and /top in chat, and a summary of the day at dawn. Players install nothing.",
       "dependencies": [],
       "revoked": false
     },
@@ -90,7 +90,7 @@
       "url": "https://github.com/HumanGenome/WaygateMods-first/releases/download/HumanGenome-DarkNights-v1.0.1/HumanGenome-DarkNights-1.0.1.zip",
       "source": "https://github.com/HumanGenome/WaygateMods-first/tree/main/DarkNights",
       "license": "MIT",
-      "description": "Harder nights and a blood moon every Nth night: more monster damage, more empowered monsters where the game has them, storm weather, every dead monster back at dusk, larger and shielded until dawn, no sleeping through it. Players install nothing.",
+      "description": "Harder nights, and a blood moon every 7th night by default: monsters hit harder, more of them are empowered, storms roll in, every dead monster comes back larger and shielded until dawn, and nobody can sleep through it. Players install nothing.",
       "dependencies": [],
       "revoked": false
     },
@@ -144,7 +144,7 @@
       "url": "https://github.com/HumanGenome/WaygateMods-first/releases/download/HumanGenome-CorruptedRealm-v1.0.0/HumanGenome-CorruptedRealm-1.0.0.zip",
       "source": "https://github.com/HumanGenome/WaygateMods-first/tree/main/CorruptedRealm",
       "license": "MIT",
-      "description": "An elite hunt: empowered monsters are several times as common and ordinary monsters can be empowered too, they gain levels, pay more and are announced when they fall; optional named champions come for a random player; monster damage can rise with the player count. Players install nothing.",
+      "description": "An elite hunt: empowered monsters are several times as common, and ordinary monsters can be empowered too. They gain levels, give more XP, gold and loot, and are announced when they fall. Optional named champions come for a random player, and monster damage can rise with the player count. Players install nothing.",
       "dependencies": [],
       "revoked": false
     },
@@ -162,7 +162,7 @@
       "url": "https://github.com/HumanGenome/WaygateMods-first/releases/download/HumanGenome-HordeNights-v1.0.1/HumanGenome-HordeNights-1.0.1.zip",
       "source": "https://github.com/HumanGenome/WaygateMods-first/tree/main/HordeNights",
       "license": "MIT",
-      "description": "Waves of monsters come for the players every Nth night or when an admin calls one: a warning in chat, wave after wave round the defenders, healing and gold between waves, and a clean-up that removes every monster it made. Players install nothing.",
+      "description": "Waves of monsters come for the players every 3rd night by default, or when an admin calls one: a warning in chat, wave after wave around the defenders, healing and gold between waves, and a clean-up that removes every monster it made. Players install nothing.",
       "dependencies": [],
       "revoked": false
     }
